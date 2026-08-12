@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nutri Scan | Food Nutrition Scanner</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/html5-qrcode" defer></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header>
+            <h1>🥗 Nutri Scan</h1>
+        </header>
+
+        <section aria-label="Barcode scanner">
+
+            <div id="reader"></div>
+
+            <button id="scanBtn">
+                📷 Start Scanner
+            </button>
+
+        </section>
+
+        <section id="result">
+
+            <h2>Food Details</h2>
+
+            <p>
+                <b>Barcode</b>
+                <span id="barcode">-</span>
+            </p>
+
+            <p>
+                <b>Product</b>
+                <span id="product">-</span>
+            </p>
+
+            <p>
+                <b>Brand</b>
+                <span id="brand">-</span>
+            </p>
+
+            <p>
+                <b>Calories</b>
+                <span id="calories">-</span>
+            </p>
+
+            <p>
+                <b>Protein</b>
+                <span id="protein">-</span>
+            </p>
+
+            <p>
+                <b>Fat</b>
+                <span id="fat">-</span>
+            </p>
+
+            <p>
+                <b>Sugar</b>
+                <span id="sugar">-</span>
+            </p>
+
+            <p>
+                <b>Salt</b>
+                <span id="salt">-</span>
+            </p>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
